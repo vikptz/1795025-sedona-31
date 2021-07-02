@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+  <link href="normalize.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 
-<body>
-  <header>
-    <nav>
-      <a><img src="./img/logo.svg" width="138" height="70" alt="Мост через каньон в городке Седона"></a>
-      <ul>
+<body class="page-body">
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="./img/logo.svg" width="138" height="70" alt="Мост через каньон в городке Седона">
+      </a>
+      <ul class="site-navigation">
         <li><a href="index.html">Информация</a></li>
         <li><a href="index.html">Фото и видео</a></li>
         <li><a href="index.html">Карта штата</a></li>
@@ -20,73 +26,82 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main class="container">
     <section>
       <h1> Welcom to the gargeus Sedona Because the Grand canyon sucks</h1>
     </section>
-    <section>
-      <h2> Седона - небольшой ородок в Аризоне, Заслуживающий большего!</h2>
-      <div>Рассмотрим 5 причин, по которым Седона круе, чем Гранд Каньон!</div>
+    <section class="advantages-sedona">
+      <h2 class="advantages"> Седона - небольшой ородок в Аризоне, Заслуживающий большего!</h2>
+      <div class="sedona-is-better">Рассмотрим 5 причин, по которым Седона круе, чем Гранд Каньон!</div>
       <ul>
         <li>
-          <div>
-            <h3>Настоящий городок</h3>
-            <p>№1</p>
-            <p>Седона-не атракцион для туристов, там течёт своя жизнь</p>
+          <div class="reason">
+            <h3 class="reason-text">Настоящий городок</h3>
+            <p class="reason-text-1">№1</p>
+            <p class="reason-text-1">Седона-не атракцион для туристов, там течёт своя жизнь</p>
           </div>
           <img src="./img/imagehouse.jpg" width="800" height="256" alt="флаг США на фоне дома в городке Седона">
           <ul>
-            <li>Жильё Рекомендуем пожить в настоящем мотеле, всё как в кино!</li>
-            <li>Еда Всегда заказывайте фирменный бургер, вы не разочаруетесь!</li>
-            <li>Сувениры Не только китайского, но и местного производства!</li>
+            <li class="reasons">
+              <h4 class="dignity">Жильё</h4> 
+              <p class="dignity-1">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            </li>
+            <li class="reasons">
+              <h4 class="dignity">Еда</h4>
+              <p class="dignity-1">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+            </li>
+            <li class="reasons">
+              <h4 class="dignity">Сувениры</h4> 
+              <p class="dignity-1">Не только китайского, но и местного производства!</p>
+            </li>
           </ul>
         </li>
         <li>
-          <div>
-            <h3>Там есть Мост дьявола</h3>
-            <p>№2</p>
-            <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          <div class="reason">
+            <h3 class="reason-text">Там есть Мост дьявола</h3>
+            <p class="reason-text-1">№2</p>
+            <p class="reason-text-1">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </div>
           <img src="./img/imagemountain.jpg" width="800" height="256" alt="мост через каньон сделанный самой природой">
         </li>
-        <li>
-          <h3>Небольшая площадь</h3>
-          <p>№3</p>
-          <p>Все достопримечательности находятся очень близко</p>
+        <li class="reason-3"> 
+          <h3 class="dignity">Небольшая площадь</h3>
+          <p class="reason-text-1">№3</p>
+          <p class="reason-text-1">Все достопримечательности находятся очень близко</p>
         </li>
-        <li>
-          <h3>Красивая дорога</h3>
-          <p>#4</p>
-          <p>ехать в седону из лас-вегаса совсем не скучно!</p>
+        <li class="reason-3">
+          <h3 class="dignity">Красивая дорога</h3>
+          <p class="reason-text-1">#4</p>
+          <p class="reason-text-1">ехать в седону из лас-вегаса совсем не скучно!</p>
         </li>
-        <li>
-          <h3>мало туристов</h3>
-          <p>#5</p>
-          <p>большинство едет в гранд каньон и толпится там</p>
+        <li class="reason-3">
+          <h3 class="dignity">мало туристов</h3>
+          <p class="reason-text-1">#5</p>
+          <p class="reason-text-1">большинство едет в гранд каньон и толпится там</p>
         </li>
       </ul>
     </section>
-    <section>
-      <div>
-        <h3>Заинтересовались?</h3>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <button>ПОИСК ГОСТИНИЦЫ В седоне</button>
+    <section class="date-selection">
+      <div class="reservation">
+        <h3 class="interested">Заинтересовались?</h3>
+        <p class="reason-text-1">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <button class="search">ПОИСК ГОСТИНИЦЫ В седоне</button>
         <form>
-          <label>
+          <label class="date">
             <p>Дата заезда</p>
             <input type="text">
           </label>
-          <label>
+          <label class="date">
             <p>Дата выезда</p>
             <input type="text">
           </label>
-          <label>
+          <label class="date-people">
             <p>Взрослые</p>
             <div>
               <button>-</button><input type="text"><button>+</button>
             </div>
           </label>
-          <label>
+          <label class="date-people">
             <p>Дети</p>
             <div>
               <button>-</button><input type="text"><button>+</button>
@@ -94,19 +109,26 @@
           </label>
         </form>
       </div>
-      <div>
+      <div class="main-map">
         <h3>
-          <img src="./img/map.png" width="1199" height="594" alt="Метка на карте, где вас ждёт незабываемое путешествие">
+          <img src="./img/map.png" width="1199" height="594"
+            alt="Метка на карте, где вас ждёт незабываемое путешествие">
         </h3>
       </div>
     </section>
   </main>
-  <footer>
-    <div>#visitSEDONA +7 800 555-86-28</div>
+  <footer class="main-footer">
+    <div class="phone">#visitSEDONA +7 800 555-86-28</div>
     <ul>
-      <li>Twit</li>
-      <li>Face</li>
-      <li>YouTube</li>
+      <li>
+        <a class="social-button" href="#">Twit</a>
+      </li>
+      <li>
+        <a class="social-button" href="#">Face</a>
+      </li>
+      <li>
+        <a class="social-button" href="#">YouTube</a>
+      </li>
     </ul>
     <a href="https://htmlacademy.ru/intensive/htmlcss"> HTML Academy</a>
   </footer>

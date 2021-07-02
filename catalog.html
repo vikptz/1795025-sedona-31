@@ -4,12 +4,16 @@
 <head>
   <meta charset="utf-8">
   <title>blank page</title>
+  <link href="normalize.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 
-<body>
-  <header>
-    <nav>
-      <a><img src="./img/logo.svg" width="138" height="70" alt="Мост через каньон в городке Седона"></a>
+<body class="page-body">
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="./img/logo.svg" width="138" height="70" alt="Мост через каньон в городке Седона">
+      </a>
       <ul>
         <li><a href="index.html">Информация</a></li>
         <li><a href="index.html">Фото и видео</a></li>
@@ -19,16 +23,16 @@
     </nav>
   </header>
   <main>
-    <section>
+    <section class="main-header">
       <form action="https://echo.htmlacademy.ru/"></form>
-      <p>Инфрастуктура</p>
-      <label><input type="checkbox" name="a" value="Бассейн"> Бассейн</label>
-      <label><input type="checkbox" name="a" value="Парковка"> Парковка</label>
-      <label><input type="checkbox" name="a" value="Wi-Fi"> Wi-Fi</label>
-      <p>Тип жилья</p>
-      <label><input name="Гостиница" type="radio" value="Гостиница"> Гостиница</label>
-      <label><input name="Мотель" type="radio" value="Мотель"> Мотель</label>
-      <label><input name="Апартаменты" type="radio" value="Апартаменты"> Апартаменты</label>
+      <p class="item">Инфрастуктура</p>
+      <label class="item-selection"><input type="checkbox" name="a" value="Бассейн"> Бассейн</label>
+      <label class="item-selection"><input type="checkbox" name="a" value="Парковка"> Парковка</label>
+      <label class="item-selection"><input type="checkbox" name="a" value="Wi-Fi"> Wi-Fi</label>
+      <p class="item">Тип жилья</p>
+      <label class="item-selection"><input name="Гостиница" type="radio" value="Гостиница"> Гостиница</label>
+      <label class="item-selection"><input name="Мотель" type="radio" value="Мотель"> Мотель</label>
+      <label class="item-selection"><input name="Апартаменты" type="radio" value="Апартаменты"> Апартаменты</label>
       <div>
         <p>Стоимость в сутки, ₽:</p>
         <button>Показать</button>
@@ -41,7 +45,7 @@
       </form>
     </section>
     <section>
-      <ul>
+      <ul class="sorting">
         <div>
           <p>Сортировка:</p>
         </div>
@@ -50,12 +54,12 @@
         <li>По рейтингу</li>
       </ul>
     </section>
-    <section>
+    <section class="hotel-selection">
       <div>
         <h4>Найдено: 3</h4>
       </div>
       <ul>
-        <li>
+        <li class="hotel-list-item">
           <div>
             <h4>Amara Resort & Spa</h4>
             <p>Гостиница</p>
@@ -76,7 +80,7 @@
           <button>Подробнее</button>
           <button>Забронировать</button>
         </li>
-        <li>
+        <li class="hotel-list-item">
           <div>
             <h4>Desert Quail Inn</h4>
             <p>Мотель</p>
@@ -97,7 +101,7 @@
           <button>Подробнее</button>
           <button>Забронировать</button>
         </li>
-        <li>
+        <li class="hotel-list-item">
           <div>
             <h4>Villas at Poco Diablo</h4>
             <p>Апартаменты</p>
@@ -118,12 +122,18 @@
       </ul>
     </section>
   </main>
-  <footer>
-    <div>#visitSEDONA +7 800 555-86-28</div>
+  <footer class="main-footer">
+    <div class="phone">#visitSEDONA +7 800 555-86-28</div>
     <ul>
-      <li>Twit</li>
-      <li>Face</li>
-      <li>YouTube</li>
+      <li>
+        <a class="social-button" href="#">Twit</a>
+      </li>
+      <li>
+        <a class="social-button" href="#">Face</a>
+      </li>
+      <li>
+        <a class="social-button" href="#">YouTube</a>
+      </li>
     </ul>
     <a href="https://htmlacademy.ru/intensive/htmlcss"> HTML Academy</a>
   </footer>

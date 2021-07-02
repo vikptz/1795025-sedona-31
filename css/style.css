@@ -1,0 +1,101 @@
+:root {
+ --basic-black: #000000;
+ --basic-white:#FFFFFF;
+ --basic-medium-light-blue: #81B3D2;
+ --basic-very-light-gray: #EEEEEE;
+ --basic-dark-slate-gray: #333333;
+ --basic-shade-of-orange:#766357;
+}
+body{
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    text-transform: uppercase;
+    background-color: var(--basic-white);
+}
+.main-navigation{
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--basic-black)
+}
+.advantages{
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--basic-black)
+}
+.sedona-is-better{
+    font-size: 14px;
+    list-style: 26px;
+    color: var(--basic-dark-slate-gray);
+}
+.reason{
+    background-color: var(--basic-medium-light-blue);
+} 
+.reason-text{
+    font-size: 21px;
+    line-height: 21px;
+    color: var(--basic-white);   
+}
+.reason-text-1{
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--basic-white);
+}
+.dignity{
+    font-size: 21px;
+    line-height: 21px;
+    color: var(--basic-black)
+}
+.dignity-1{
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--basic-black)
+}
+.reason-3{
+background-color: var(--basic-very-light-gray);
+}
+.interested{
+    font-size: 30px;
+    line-height: 24px;
+    color: var(--basic-black)
+}
+.search{
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--basic-white);
+    background-color: var(--basic-shade-of-orange);
+}
+.phone{
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--basic-black)
+}
+.date-people{
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--basic-black)
+}
+.item{
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--basic-white);
+}
+.item-selection{
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--basic-white);
+}
+.sorting{
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--basic-black);
+}
+.hotel-list-item{
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--basic-black);
+    background-color: var(--basic-white);
+}
