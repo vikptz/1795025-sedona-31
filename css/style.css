@@ -6,7 +6,7 @@
  --basic-dark-slate-gray: #333333;
  --basic-shade-of-orange:#766357;
 }
-body{
+body {
     min-width: 960px;
     margin: 0;
     padding: 0;
@@ -16,84 +16,84 @@ body{
     text-transform: uppercase;
     background-color: var(--basic-white);
 }
-.main-navigation{
+.main-navigation {
     font-size: 14px;
     line-height: 26px;
     color: var(--basic-black)
 }
-.advantages{
+.advantages {
     font-size: 21px;
     line-height: 26px;
     color: var(--basic-black)
 }
-.sedona-is-better{
+.sedona-is-better {
     font-size: 14px;
     list-style: 26px;
     color: var(--basic-dark-slate-gray);
 }
-.reason{
+.reason {
     background-color: var(--basic-medium-light-blue);
 } 
-.reason-text{
+.reason-text {
     font-size: 21px;
     line-height: 21px;
     color: var(--basic-white);   
 }
-.reason-text-1{
+.reason-text-1 {
     font-size: 14px;
     line-height: 21px;
     color: var(--basic-white);
 }
-.dignity{
+.dignity {
     font-size: 21px;
     line-height: 21px;
     color: var(--basic-black)
 }
-.dignity-1{
+.dignity-1 {
     font-size: 14px;
     line-height: 21px;
     color: var(--basic-black)
 }
-.reason-3{
+.reason-3 {
 background-color: var(--basic-very-light-gray);
 }
-.interested{
+.interested {
     font-size: 30px;
     line-height: 24px;
     color: var(--basic-black)
 }
-.search{
+.search {
     font-size: 21px;
     line-height: 26px;
     color: var(--basic-white);
     background-color: var(--basic-shade-of-orange);
 }
-.phone{
+.phone {
     font-size: 21px;
     line-height: 26px;
     color: var(--basic-black)
 }
-.date-people{
+.date-people {
     font-size: 14px;
     line-height: 26px;
     color: var(--basic-black)
 }
-.item{
+.item {
     font-size: 16px;
     line-height: 21px;
     color: var(--basic-white);
 }
-.item-selection{
+.item-selection {
     font-size: 14px;
     line-height: 21px;
     color: var(--basic-white);
 }
-.sorting{
+.sorting {
     font-size: 12px;
     line-height: 18px;
     color: var(--basic-black);
 }
-.hotel-list-item{
+.hotel-list-item {
     font-size: 21px;
     line-height: 26px;
     color: var(--basic-black);
