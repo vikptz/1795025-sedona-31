@@ -99,3 +99,15 @@ body {
     color: var(--basic-black);
     background-color: var(--basic-white);
 }
+.button-details {
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--basic-white);
+    background-color: var(--basic-medium-light-blue);
+}
+.button-reservation {
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--basic-white);
+    background-color: var(--basic-shade-of-orange);
+}
