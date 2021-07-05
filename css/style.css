@@ -55,7 +55,7 @@ body {
     color: var(--basic-black)
 }
 .reason-3 {
-background-color: var(--basic-very-light-gray);
+    background-color: var(--basic-very-light-gray);
 }
 .interested {
     font-size: 30px;
