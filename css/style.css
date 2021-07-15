@@ -6,7 +6,7 @@
  --basic-dark-slate-gray: #333333;
  --basic-shade-of-orange:#766357;
 }
-body {
+.page-body {
     min-width: 960px;
     margin: 0;
     padding: 0;
@@ -15,8 +15,16 @@ body {
     line-height: 21px;
     text-transform: uppercase;
     background-color: var(--basic-white);
+
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+}
+.main-header-logo {
+    justify-self: center;
 }
 .main-navigation {
+    display: grid;
     font-size: 14px;
     line-height: 26px;
     color: var(--basic-black)
@@ -69,9 +77,14 @@ body {
     background-color: var(--basic-shade-of-orange);
 }
 .phone {
+    margin: 0;
+    width: 220px;
+    background-color: yellow;
     font-size: 21px;
     line-height: 26px;
     color: var(--basic-black)
+    
+   
 }
 .date-people {
     font-size: 14px;
@@ -110,4 +123,23 @@ body {
     line-height: 21px;
     color: var(--basic-white);
     background-color: var(--basic-shade-of-orange);
+}
+.page {
+    height: 100%;
+}
+.main-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.social-button {
+    width: 200px;
+    justify-self: center;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.master {
+    max-width: 250px;
+    margin: 0;
+    justify-self: end;
+    background-color: white;
 }
